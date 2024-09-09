@@ -10,7 +10,7 @@ import time
 
 # Import local modules (if necessary)
 # import utils_becca
-
+import utils_becca
 
 
 #####################################
@@ -134,6 +134,7 @@ def main() -> None:
 
     # Print get_byline() from imported module (commented out if utils_becca is not available)
     # print(f"Byline: {utils_becca.get_byline()}")
+    print(f"Byline: {utils_becca.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)
